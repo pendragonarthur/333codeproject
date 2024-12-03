@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Honk&family=Modak&family=Oi&display=swap");
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  margin-top: 80px;
+  background: #1c1c1c;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textWrapper h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: "Honk", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.textWrapper p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+  color: #f1f1f1;
+}
+
+.containerReverse {
+  grid-template-columns: 2fr 1fr;
+  display: grid;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  background: #1c1c1c;
+}
+
+.textWrapperReverse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textWrapperReverse h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-family: "Honk", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.textWrapperReverse p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+  color: #f1f1f1;
+}
